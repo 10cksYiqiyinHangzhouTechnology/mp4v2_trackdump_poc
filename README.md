@@ -4,6 +4,14 @@
 
 https://github.com/enzo1982/mp4v2
 
+## POC
+
+[Poc file](https://github.com/10cksYiqiyinHangzhouTechnology/mp4v2_trackdump_poc/blob/main/id_000005%2Csig_08%2Csrc_000166%2B000357%2Ctime_3137250%2Cexecs_3545598%2Cop_splice%2Crep_16)
+
+[afl_trackdump](https://github.com/10cksYiqiyinHangzhouTechnology/mp4v2_trackdump_poc/blob/main/afl_mp4trackdump)
+
+[asan_trackdump](https://github.com/10cksYiqiyinHangzhouTechnology/mp4v2_trackdump_poc/blob/main/asan_mp4trackdump)
+
 ## Problem
 
 There has a FPE(Floating Point Exception) in mp4trackdump.cpp:54, function DumpTrack(). Attackers cause denial of service through carefully constructed malicious files.
